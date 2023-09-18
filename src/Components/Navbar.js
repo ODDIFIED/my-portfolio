@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 
 function Navbar() {
-  const [isOpen, setisOpen] = useState(true);
+  const [isOpen, setisOpen] = useState(false);
   const handleNav = () => {
     setisOpen(!isOpen);
   };
