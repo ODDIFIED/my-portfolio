@@ -18,7 +18,7 @@ function Hero() {
   return (
     <div className="w-full  mx-auto max-w-7xl xsm:mx-w-xl mt-10 px-20 ">
       <h3 className="font-medium font-serif md:text-3xl xsm:text-xl xsm:mt-2 xsm:mx-auto  xsm:w-[100%] sm:w-[90%] md:w-[50%] lg:text-4xl lg:w-[35%]   ">
-        Dimgba David Chisom Front-end Developer Based in Nigeria
+        Hi, Dimgba David Chisom Front-end Developer Based in Nigeria
       </h3>
       <div className="w-100 flex justify-evenly mx-auto md:mt-5 lg:mt-20 xsm:mt-5 xsm:flex-col lg:flex-row   ">
         <div className="w-[30%] mt-6  xsm:w-full lg:w-[40%]  ">
