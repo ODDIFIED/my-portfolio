@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div
       class=" w-[100%] max-w-7xl mx-auto  font-extrabold flex justify-between  py-4 border-t-0 border-r-0 border-l-0 border-b-0 
-     border border-black  items-center  xsm:px-7 md:px-20 lg:px-20
+     border border-black  items-center   xsm:px-7 md:px-20 lg:px-26
       bg-black  "
     >
       <div className="  max-w-xl  flex items-center  ">
@@ -39,7 +39,7 @@ function Navbar() {
         </div>
       </div>
       <div
-        class="flex   text-white space-x-20 justify-between
+        class="    text-white space-x-20 justify-between
          md:flex xlg:flex lg:flex sm:hidden xsm:hidden 
       "
       >
@@ -50,7 +50,7 @@ function Navbar() {
           <AiFillTwitterCircle />
         </div>
       </div>
-      <div className=" md:hidden lg:hidden xlg:hidden" onClick={handleNav}>
+      <div className="  md:hidden lg:hidden xlg:hidden" onClick={handleNav}>
         {isOpen ? (
           <AiOutlineCloseCircle size={"25px"} color="white" />
         ) : (
@@ -60,20 +60,20 @@ function Navbar() {
       <div
         className={
           isOpen
-            ? " fixed w-[100%] h-[60%] border border-t-white border-t-2 border-r-0 border-l-0 right-0  top-0 mt-14 md:hidden xlg:hidden lg:hidden bg-black ease-in-out duration-300 "
+            ? " absolute w-[100%] h-[80%] border border-t-white border-t-2 border-r-0 border-l-0 right-0  top-0 mt-14 md:hidden xlg:hidden lg:hidden bg-black ease-linear duration-300ms "
             : "hidden"
         }
       >
-        <div className="pt-16">
-          <ul class="p-3 text-white text-2xl    font-mono">WORKS</ul>
-          <ul class="p-4 text-white text-2xl font-mono">RESUME</ul>
-          <ul class="p-4 text-white text-2xl font-mono">CONTACT</ul>
+        <div className="pt-10">
+          <ul class="  border-b-2 border-white p-6 text-white text-2xl    font-mono">WORKS</ul>
+          <ul class="  border-b-2 border-white p-6 text-white text-2xl font-mono">RESUME</ul>
+          <ul class=" border-b-2 border-white p-6 text-white text-2xl font-mono">CONTACT</ul>
         </div>
-        <div className="flex space-x-3  mx-[35%] pt-4">
-          <AiFillLinkedin size={30} color="white" />
-          <AiFillGithub size={30} color="white" />
-          <AiFillInstagram size={30} color="white" />
-          <AiFillTwitterCircle size={30} color="white" />
+        <div className="flex space-x-3  mx-[35%] pt-7">
+          <AiFillLinkedin size={45} color="white" />
+          <AiFillGithub size={45} color="white" />
+          <AiFillInstagram size={45} color="white" />
+          <AiFillTwitterCircle size={45} color="white" />
         </div>
       </div>
     </div>
