@@ -11,6 +11,7 @@ import {
   BiLogoTailwindCss,
 } from "react-icons/bi";
 import { FaBootstrap } from "react-icons/fa";
+import { PiWaveSawtooth, PiWaves, PiWavesBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
 // import imgOne from "../images/WhatsApp Image 2023-09-17 at 16.24.23.jpeg";
 import imgTwo from "../images/WhatsApp Image 2023-09-17 at 16.25.18.jpeg";
@@ -76,13 +77,14 @@ function Hero() {
           </div>
         </div>
         <div className=" xsm:w-[130%]  xsm:ml-[-30px] sm:ml-[-40px] md:w-[65%]  md:mx-auto lg:ml-0 lg:w-[50%]   xsm:mx-auto xsm:mt-10 md:mt-20 flex justify-center ease-in-out delay-300ms ">
-          <div className=" w-[130%] sm:w-[100%] lg:w-[50%] xsm:h-[55vh] xsm:px-4  xsm:flex xsm:justify-center xsm:items-center   lg:h-[55vh] lg:flex lg:justify-center lg:items-center border  border-gray-300 rounded-[85px]">
+          <div className="  lg:w-[50%] xsm:h-[55vh] xsm:px-4  xsm:flex xsm:justify-center xsm:items-center   lg:h-[55vh] lg:flex lg:justify-center lg:items-center border  border-gray-300 rounded-[85px]">
             <img
               className="  xsm:h-[50vh]   lg:h-[50vh] rounded-[85px] "
               src={imgTwo}
               alt="myPhoto"
             />
           </div>
+         
         </div>
       </div>
       <div className="lg:w-[100%]  md:text-center  mt-6 ">
