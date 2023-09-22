@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className=" w-full xsm:max-w-7xl bg-black xsm:h-[55vh] sm:h-[50vh] md:h-[33vh] lg:h-[38vh] xsm:px-0 md:px-10  mt-14   text-white">
+    <div className=" w-full xsm:max-w-7xl bg-black xsm:h-[55vh] sm:h-[57vh] md:h-[33vh] lg:h-[38vh] xsm:px-0 md:px-10  mt-14   text-white">
       <div className=" xsm:w-[90%] md:w-[90%] md:pt-20 xsm:pt-16  mx-auto xsm:flex xsm:justify-center  xsm:flex-col-reverse lg:pt-10 md:flex md:flex-row md:justify-center md:place-items-center">
         <div className=" xsm:w-[100%] w-[50%] text-left">
           <h3 className=" xsm:mt-16 md:mt-0 uppercase text-sans text-xl font-bold">

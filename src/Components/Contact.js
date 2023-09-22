@@ -21,7 +21,7 @@ const Contact = () => {
       <form
         method="POST"
         action="https://getform.io/f/01048347-0935-4a87-b401-1e39685aa3cc"
-        className="flex flex-col bg-gray-400 shadow-md md:px-5 lg:px-7  xsm:px-2 mt-5 xsm:w-[85%] sm:w-[95%] md:w-[70%] xsm:h-[92vh] sm:h-[80vh] md:h-[67vh] lg:h-[105vh] mx-auto rounded-lg "
+        className="flex flex-col bg-gray-400 shadow-md md:px-5 lg:px-7  xsm:px-2 mt-5 xsm:w-[85%] sm:w-[95%] md:w-[70%] xsm:h-[92vh] sm:h-[90vh] md:h-[67vh] lg:h-[105vh] mx-auto rounded-lg "
       >
         <div className=" mt-10 flex flex-col justify-start items-start px-4">
           <label className="pb-2 text-white font-semibold">Name</label>
