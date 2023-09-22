@@ -17,7 +17,10 @@ import { Link } from "react-router-dom";
 import imgTwo from "../images/WhatsApp Image 2023-09-17 at 16.25.18.jpeg";
 function Hero() {
   return (
-    <div className="w-full  mx-auto max-w-7xl xsm:mx-w-xl mt-10 px-20 ">
+    <div
+      className="w-full  mx-auto max-w-7xl xsm:mx-w-xl mt-10 px-20 "
+      id="about"
+    >
       <h3 className="font-medium font-serif md:text-3xl xsm:text-xl xsm:mt-2 xsm:mx-auto  xsm:w-[100%] sm:w-[90%] md:w-[50%] lg:text-4xl lg:w-[35%]   ">
         Hi, I'm Dimgba David Front-end Developer Based in Nigeria
       </h3>
@@ -84,14 +87,13 @@ function Hero() {
               alt="myPhoto"
             />
           </div>
-         
         </div>
       </div>
-      <div className="lg:w-[100%]  md:text-center  mt-6 ">
+      <div className="lg:w-[100%]  md:text-center  mt-16 ">
         <h3 className="font-semibold text-sm md:text-center lg:text-center text-gray-500">
           Stacks
         </h3>
-        <div className=" w-full mx-auto lg:flex  lg:justify-center lg:items-center lg:space-x-20 xsm:flex xsm:flex-row md:justify-evenly md:mt-2 ">
+        <div className=" w-full mx-auto lg:flex  lg:justify-center lg:items-center lg:space-x-20 xsm:flex xsm:flex-row md:justify-evenly md:mt-5 ">
           <AiFillHtml5
             className=" xsm:mt-0 lg:mt-2  "
             size={70}

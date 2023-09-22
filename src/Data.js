@@ -6,19 +6,40 @@ import imgSpace from "./images/Space landingPage -ss.png";
 export const WebData = [
   {
     id: 0,
+    img: imgCar,
+    desc: "ODDCARS",
     url: "https://www.car-app-nine.vercel.app/",
-    desc: "A showroomn page for car dealers",
     html: "Html",
     css: "css",
     js: "JavaScript",
     tool: "react",
   },
   {
-    id: 0,
+    id: 1,
+    img: imgSpace,
+    desc: "Space Tourism",
     url: "https://space-tourism-nine-xi.vercel.app/",
     html: "Html",
     css: "css",
     js: "JavaScript",
+  },
+  {
+    id: 2,
+    desc: "Flag Location",
+    img: imgFlag,
+    url: "https://flag-app-vert.vercel.app/",
+    html: "Html",
+    css: "css",
+    js: "JavaScript",
     tool: "react",
-  }
+  },
+  {
+    id: 3,
+    desc: "Landing page",
+    img: imgIndozi,
+    url: "https://indizo-file.vercel.app/",
+    html: "Html",
+    css: "css",
+    js: "JavaScript",
+  },
 ];
