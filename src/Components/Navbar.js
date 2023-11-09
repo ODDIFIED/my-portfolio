@@ -16,7 +16,7 @@ function Navbar() {
   };
   return (
     <div
-      class=" w-[100%] max-w-7xl mx-auto  font-extrabold flex justify-between  py-4 border-t-0 border-r-0 border-l-0 border-b-0 
+      class=" w-[100%] max-w-7xl mx-auto fixed top-0 font-extrabold flex justify-between  py-4 border-t-0 border-r-0 border-l-0 border-b-0 
      border border-black  items-center   xsm:px-7 md:px-20 lg:px-26
       bg-black  "
     >

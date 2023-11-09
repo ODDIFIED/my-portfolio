@@ -18,8 +18,8 @@ import imgTwo from "../images/WhatsApp Image 2023-09-17 at 16.25.18.jpeg";
 function Hero() {
   return (
     <div
-      className="w-full  mx-auto max-w-7xl xsm:mx-w-xl mt-10 px-20 "
-      id="about"
+      className="w-full  mx-auto max-w-7xl xsm:mx-w-xl mt-20 px-20 "
+      id="About"
     >
       <h3 className="font-medium font-serif md:text-3xl xsm:text-xl xsm:mt-2 xsm:mx-auto  xsm:w-[100%] sm:w-[90%] md:w-[50%] lg:text-4xl lg:w-[35%]   ">
         Hi, I'm Dimgba David Front-end Developer Based in Nigeria
