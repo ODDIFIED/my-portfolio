@@ -2,6 +2,7 @@ import imgIndozi from "./images/indizo-file-screen shot.png";
 import imgFlag from "./images/Flag App - ss.png";
 import imgCar from "./images/Car App SS.png";
 import imgSpace from "./images/Space landingPage -ss.png";
+import imgOdd from "./images/Odd Landscape ss.png";
 
 export const WebData = [
   {
@@ -41,5 +42,15 @@ export const WebData = [
     html: "Html",
     css: "css",
     js: "JavaScript",
+  },
+  {
+    id: 4,
+    desc: "Landing page",
+    img: imgOdd,
+    url: "https://my-minimal-app.vercel.app/",
+    html: "Html",
+    css: "css",
+    js: "JavaScript",
+    js: "typescript",
   },
 ];

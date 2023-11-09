@@ -13,7 +13,7 @@ function Project() {
         Here you will find some of the personal projects I created
       </p>
       <div>
-        <div>
+        <div className="md:grid md:grid-cols-3 ">
           {WebData.map((item) => {
             return <WebCard item={item} key={item.id} />;
           })}
