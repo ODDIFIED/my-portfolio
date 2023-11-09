@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      className=" w-full xsm:max-w-sm md:max-w-6xl mx-auto mt-28 "
+      className=" w-full xsm:max-w-sm md:max-w-4xl mx-auto mt-28 "
       id="contact"
     >
       <h2 className="uppercase xsm:text-3xl md:text-4xl  font-bold ">
@@ -13,7 +13,7 @@ const Contact = () => {
         <hr className=" xsm:w-[10%] lg:w-[2%] mx-auto mt-3 h-1 bg-black rounded-md"></hr>
       </div>
       <div>
-        <p className=" w-full xsm:w-[90%] mx-auto mt-5 pb-14 font-semibold font-sans">
+        <p className=" w-full xsm:w-[90%] lg:w-[60%] mx-auto mt-5 pb-5 font-semibold font-sans">
           Feel free to Contact me by submitting the form below and I will get
           back to you as soon as possible
         </p>
