@@ -11,7 +11,7 @@ const WebCard = ({ item }) => {
       <div>
         <p className=" mt-3 mb-5 xsm:text-xl font-sans font-semibold">{desc}</p>
         <Link
-          to={url}
+          to={url} 
           className="border border-black rounded-xl hover:bg-black hover:text-white xsm:p-2  "
         >
           Visit Website

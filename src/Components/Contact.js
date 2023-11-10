@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div
+    <div id="contact"
       className=" w-full xsm:max-w-sm md:max-w-4xl mx-auto mt-28 "
-      id="contact"
+      
     >
       <h2 className="uppercase xsm:text-3xl md:text-4xl  font-bold ">
         Contact
