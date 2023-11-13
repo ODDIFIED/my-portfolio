@@ -9,7 +9,7 @@ export const WebData = [
     id: 0,
     img: imgCar,
     desc: "ODDCARS",
-    url: "https://www.car-app-nine.vercel.app/",
+    url: "https://car-app-nine.vercel.app/",
     html: "Html",
     css: "css",
     js: "JavaScript",
