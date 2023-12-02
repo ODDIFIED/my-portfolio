@@ -50,7 +50,7 @@ function Navbar() {
       <div
         className={
           isOpen
-            ? " absolute w-[100%] h-[80%] border border-t-white border-t-2 border-r-0 border-l-0 right-0  top-0 mt-14 md:hidden xlg:hidden lg:hidden bg-black ease-in-out  duration-100 "
+            ? " absolute w-[100%] xsm:h-[65vh] sm:h-[60vh] bg-black border border-t-2 border-r-0 border-l-0 right-0  top-0 mt-14 md:hidden xlg:hidden lg:hidden left-[-100]  ease-in-out  duration-100 "
             : "hidden"
         }
       >
